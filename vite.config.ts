@@ -12,6 +12,7 @@ export default defineConfig({
       name: "SpectrogramPlayer",
       fileName: (format) => `react-audio-spectrogram-player.${format}.js`,
     },
+    sourcemap: true,
     rollupOptions: {
       external: ["react", "react-dom"],
       output: {
@@ -29,6 +30,6 @@ export default defineConfig({
     },
   },
   optimizeDeps: {
-    exclude: ["rust-melspec-wasm"], // replace with your wasm package name
+    exclude: ["rust-melspec-wasm"],
   },
 });
