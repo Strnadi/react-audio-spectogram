@@ -11,3 +11,7 @@ package
 
 
 src/assets/buckeye/
+
+bun.lock
+package-lock.json
+pnpm-lock.yaml

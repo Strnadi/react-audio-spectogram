@@ -24,7 +24,8 @@
   "exports": {
     ".": {
       "import": "./dist/react-audio-spectrogram-player.es.js",
-      "require": "./dist/react-audio-spectrogram-player.umd.js"
+      "require": "./dist/react-audio-spectrogram-player.umd.js",
+      "types": "./dist/lib/index.d.ts"
     }
   },
   "scripts": {
@@ -66,5 +67,8 @@
   "repository": "github:nicolvisser/react-audio-spectrogram-player",
   "bugs": {
     "url": "https://github.com/nicolvisser/react-audio-spectrogram-player/issues"
-  }
+  },
+  "trustedDependencies": [
+    "@swc/core"
+  ]
 }

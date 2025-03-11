@@ -1,3 +1,2 @@
-import SpectrogramPlayer from "./SpectrogramPlayer";
-
-export default SpectrogramPlayer;
+export { default } from "./SpectrogramPlayer";
+export * from "./Annotation";
