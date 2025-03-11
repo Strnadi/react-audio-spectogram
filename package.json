@@ -1,5 +1,5 @@
 {
-  "name": "react-audio-spectrogram-player",
+  "name": "@strnadi/react-audio-spectrogram",
   "version": "2.0.2",
   "description": "An audioplayer written in React that shows a spectrogram along with the audio.",
   "license": "MIT",
